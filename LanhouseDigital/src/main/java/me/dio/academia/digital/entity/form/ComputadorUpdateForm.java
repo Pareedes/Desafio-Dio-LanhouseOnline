@@ -1,8 +1,8 @@
 package me.dio.academia.digital.entity.form;
 
-public class AvaliacaoFisicaUpdateForm {
+public class ComputadorUpdateForm {
 
-  private double peso;
+  private String marca;
 
-  private double altura;
+  private Long idCliente;
 }
