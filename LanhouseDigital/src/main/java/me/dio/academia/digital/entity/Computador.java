@@ -2,16 +2,16 @@ package me.dio.academia.digital.entity;
 
 import java.time.LocalDateTime;
 
-public class AvaliacaoFisica {
+public class Computador {
 
-  private Long id;
+  private Long idComputador;
 
-  private Aluno aluno;
+  private Cliente cliente;
 
-  private LocalDateTime dataDaAvaliacao = LocalDateTime.now();
+  private LocalDateTime dataDaUtilizacao = LocalDateTime.now();
 
-  private double peso;
+  private String marca;
 
-  private double altura;
+  private Long idCliente;
 
 }
