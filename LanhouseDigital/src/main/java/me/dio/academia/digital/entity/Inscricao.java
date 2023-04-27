@@ -2,11 +2,11 @@ package me.dio.academia.digital.entity;
 
 import java.time.LocalDateTime;
 
-public class Matricula {
+public class Inscricao {
 
-  private Long id;
+  private Long idCliente;
 
-  private Aluno aluno;
+  private Cliente cliente;
 
-  private LocalDateTime dataDaMatricula = LocalDateTime.now();
+  private LocalDateTime dataDaUtilizacao = LocalDateTime.now();
 }
