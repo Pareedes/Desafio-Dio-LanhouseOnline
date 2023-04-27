@@ -1,7 +1,7 @@
 package me.dio.academia.digital.entity.form;
 
-public class MatriculaForm {
+public class InscricaoForm {
 
-  private Long alunoId;
+  private Long clienteId;
 
 }
